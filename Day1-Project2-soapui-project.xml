@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:GetConversionAmount>
+      <!--Optional:-->
+         <tem:CurrencyFrom>GBP</tem:CurrencyFrom>
+         <!--Optional:-->
+         <tem:CurrencyTo>INR</tem:CurrencyTo>
+         <tem:RateDate>2019-12-12</tem:RateDate>
+         <tem:Amount>100</tem:Amount>
+      </tem:GetConversionAmount>
+   </soapenv:Body>
+</soapenv:Envelope>
