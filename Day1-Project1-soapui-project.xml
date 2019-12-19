@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
-   <soap:Header/>
-   <soap:Body>
-      <def:catalogProductRepositoryV1DeleteByIdRequest>
-         <sku>SKU00001</sku>
-      </def:catalogProductRepositoryV1DeleteByIdRequest>
-   </soap:Body>
-</soap:Envelope>
